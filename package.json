@@ -1,35 +1,31 @@
 {
   "name": "nano",
-  "version": "1.0.0",
-  "description": "Nano Telegram & WebSocket Automation Bot",
+  "version": "3.9.0",
+  "description": "Nano WebSocket Automation Client v3.9",
   "main": "index.js",
+  "type": "commonjs",
+  "private": true,
   "author": "ForestArmy",
   "license": "ISC",
-  "type": "commonjs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/airdropscriptfa/nano.git"
-  },
-  "bugs": {
-    "url": "https://github.com/airdropscriptfa/nano/issues"
-  },
-  "homepage": "https://github.com/airdropscriptfa/nano",
-  "keywords": [
-    "nano",
-    "telegram-bot",
-    "websocket",
-    "automation",
-    "forestarmy"
-  ],
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
-    "test": "echo \"No test specified\" && exit 0"
+    "clean": "rm -rf node_modules package-lock.json",
+    "reinstall": "npm run clean && npm install"
   },
+  "keywords": [
+    "nano",
+    "websocket",
+    "automation",
+    "client",
+    "forestarmy",
+    "v3.9"
+  ],
   "dependencies": {
-    "http-proxy-agent": "^7.0.2",
-    "https-proxy-agent": "^7.0.6",
-    "node-telegram-bot-api": "^0.67.0",
-    "ws": "^8.19.0"
+    "ws": "^8.19.0",
+    "https-proxy-agent": "^7.0.6"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
