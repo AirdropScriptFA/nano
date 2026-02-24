@@ -4,6 +4,10 @@ Points Increase Speed Script
 https://t.me/forestarmy
 
 ---
+## 🦸 Invite Link
+https://thenanobutton.com/hvFEYQ?unit=dollars
+
+---
 
 ## 📥 Installation
 
@@ -23,10 +27,10 @@ node index.js
 
 ---
 
-## 🔐 Get Script Verification Code
+## 🔐 Get Script [Buy]
 
-Get your verification code from:
-https://t.me/licensecheck_bot
+Get code from:
+https://t.me/rspyder2_bot
 
 ---
 
