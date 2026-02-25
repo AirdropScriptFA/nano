@@ -16,6 +16,13 @@ git clone https://github.com/AirdropScriptFA/nano.git
 cd nano
 npm install
 ```
+---
+## 🌐 Setup
+
+```bash
+nano proxy.txt
+```
+Format:- _ip:port_
 
 ---
 
